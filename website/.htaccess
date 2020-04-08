@@ -1,0 +1,7 @@
+DocumentRoot "/fancy-index"
+
+<Directory "/fancy-index">
+    AllowOverride All
+    Options Indexes MultiViews FollowSymLinks
+    Require all granted
+</Directory>
